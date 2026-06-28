@@ -48,9 +48,9 @@ function Contact() {
     setLoading(true);
 
     try {
-      await axios.post(
-  `${import.meta.env.VITE_API_URL}/contact`,
-  formData
+axios.post(
+    `${import.meta.env.VITE_API_URL}/api/contact`,
+    formData
 );
       toast.success(
   "Inquiry submitted successfully! We will contact you shortly."

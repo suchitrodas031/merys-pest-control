@@ -5,14 +5,25 @@ const cors = require("cors");
 
 const app = express();
 
-app.use(cors({
-    origin: [
-    "http://localhost:5173",
-    "https://merys-pest-control.vercel.app"
-],
-    credentials: true
-}));
+// app.use(cors({
+//     origin: [
+//     "http://localhost:5173",
+//     "https://merys-pest-control.vercel.app"
+// ],
+//     credentials: true
+// }));
 
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://merys-pest-control.vercel.app",
+      "https://www.merryspestcontrol.in",
+      "https://merryspestcontrol.in"
+    ],
+    credentials: true,
+  })
+);
 app.use(express.json());
 
 const contactRoutes = require("./routes/contactRoutes");
