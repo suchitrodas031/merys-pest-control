@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@keyframes reviewScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-review-scroll {
+  animation: reviewScroll 25s linear infinite;
+}
+
+.animate-review-scroll:hover {
+  animation-play-state: paused;
+}
