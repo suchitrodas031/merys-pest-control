@@ -49,7 +49,7 @@ function Contact() {
 
     try {
       await axios.post(
-  "http://localhost:5000/api/contact/send",
+  `${import.meta.env.VITE_API_URL}/contact`,
   formData
 );
       toast.success(
