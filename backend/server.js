@@ -7,9 +7,9 @@ const app = express();
 
 app.use(cors({
     origin: [
-        "http://localhost:5173",
-        "https://your-vercel-url.vercel.app"
-    ],
+    "http://localhost:5173",
+    "https://merys-pest-control.vercel.app"
+],
     credentials: true
 }));
 
