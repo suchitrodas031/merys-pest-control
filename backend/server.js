@@ -25,6 +25,9 @@ app.use(
   })
 );
 app.use(express.json());
+app.get("/", (req, res) => {
+  res.send("Backend Running");
+});
 
 const contactRoutes = require("./routes/contactRoutes");
 
