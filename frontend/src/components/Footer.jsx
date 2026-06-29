@@ -68,7 +68,7 @@ function Footer() {
           <div className="border border-[#2a130d] rounded-2xl p-8">
 
             <h3 className="text-lg font-semibold text-white mb-5">
-              REGISTERED HOUSE
+              REGISTERED OFFICE
             </h3>
 
             <hr className="border-[#2a130d] mb-6" />
@@ -108,7 +108,7 @@ function Footer() {
 
                 <p className="text-xs md:text-sm leading-6">
                   Monday – Saturday:
-                  8:00 AM – 8:00 PM
+                  24 Hours
                 </p>
 
                 <p>
@@ -150,7 +150,7 @@ function Footer() {
       href="tel:+917595807288"
       className="block mt-1 hover:text-red-400 transition"
     >
-      +91 75958 07288
+      +91 8481806488
     </a>
   </div>
 </div>

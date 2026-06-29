@@ -236,7 +236,7 @@ function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-xl">
-                      Fully Bonded & Insured Crew
+                      Trusted & Vetted Experts
                     </h3>
                     <p className="text-gray-600">
                       Trained professionals with verified credentials.
@@ -284,12 +284,10 @@ function Home() {
                   Quality Assurance
                 </p>
                 <h3 className="text-3xl font-bold mt-3">
-                  Full 1-Year Structural Re-service Bond
+                  Premium Structural Integrity Standards
                 </h3>
                 <p className="text-gray-300 mt-4">
-                  If pests return during the service period,
-                  our team will revisit and retreat at no
-                  additional cost.
+                  Engineered to target root causes, ensuring your home or business remains reinforced against pest vulnerabilities.
                 </p>
               </div>
             </div>
