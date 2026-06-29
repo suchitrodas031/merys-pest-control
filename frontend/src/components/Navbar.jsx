@@ -16,7 +16,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-white shadow-md sticky top-0 z-40 relative">
+    <nav className="bg-white shadow-md sticky top-0 z-40">
       <div className="container mx-auto px-4 flex justify-between items-center h-20">
         
         {/* LOGO & TITLE SECTION */}
