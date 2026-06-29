@@ -47,34 +47,44 @@ function Contact() {
 
     setLoading(true);
 
-    try {
-axios.post(
-    `${import.meta.env.VITE_API_URL}/api/contact`,
+   try {
+
+  const response = await axios.post(
+    `${import.meta.env.VITE_API_URL}/api/contact/send`,
     formData
-);
-      toast.success(
-  "Inquiry submitted successfully! We will contact you shortly."
-);
-      setSuccess(true);
-      
+  );
 
-      setFormData({
-        name: "",
-        phone: "",
-        email: "",
-        category: "",
-        message: "",
-      });
+  if (response.data.success) {
 
-      setTimeout(() => {
-        setSuccess(false);
-      }, 3000);
+    toast.success(
+      "Inquiry submitted successfully! We will contact you shortly."
+    );
 
-    } catch (error) {
+    setSuccess(true);
 
-      toast.error("Something went wrong!");
+    setFormData({
+      name: "",
+      phone: "",
+      email: "",
+      category: "",
+      message: "",
+    });
 
-    }
+    setTimeout(() => {
+      setSuccess(false);
+    }, 3000);
+
+  }
+
+} catch (error) {
+
+  console.error(error);
+
+  toast.error(
+    error.response?.data?.message || "Something went wrong!"
+  );
+
+}
 
     finally {
   setLoading(false);
