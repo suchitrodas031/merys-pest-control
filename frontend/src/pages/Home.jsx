@@ -11,7 +11,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";import { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; 
-import heroBg from "../assets/hero-bg.jpg"; // Imported your local background image
+import heroBg from "../assets/hero-bg.png"; // Imported your local background image
 
 const reviews = [
   {
@@ -124,7 +124,7 @@ function Home() {
         className="bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
       >
-        <div className="bg-black/60 py-24 md:py-40 px-4 md:px-6 text-center text-white">
+        <div className="bg-black/60 py-24 md:py-40 px-4 md:px-7 text-center text-white">
           <h2 className="text-3xl md:text-6xl font-extrabold leading-tight mb-6">
             Professional Pest Control Services
           </h2>
@@ -250,7 +250,7 @@ function Home() {
             <div>
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 <div className="bg-white p-6 md:p-10 rounded-3xl shadow-md text-center">
-                  <h3 className="text-3xl md:text-5xl font-black">10+</h3>
+                  <h3 className="text-3xl md:text-5xl font-black">15+</h3>
                   <p className="mt-3 text-gray-600">
                     Years of Experience
                   </p>
@@ -266,7 +266,7 @@ function Home() {
                 <div className="bg-white p-6 md:p-10 rounded-3xl shadow-md text-center">
                   <h3 className="text-3xl md:text-5xl font-black">100%</h3>
                   <p className="mt-3 text-gray-600">
-                    Eco Certified
+                    Eco Friendly
                   </p>
                 </div>
 

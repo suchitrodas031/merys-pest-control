@@ -244,9 +244,13 @@ function Contact() {
   Cockroach Control
 </option>
 
+<option value="Mouse-Control">
+  Mouse Control
+</option>
 <option value="General Inquiry">
   General Inquiry
 </option>
+
                   </select>
                 </div>
 

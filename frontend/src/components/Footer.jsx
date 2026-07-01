@@ -44,23 +44,7 @@ function Footer() {
               with professional care.
             </p>
 
-            <hr className="border-[#2a130d] my-6" />
-
-            <div className="flex gap-3 mb-3">
-              <FaUserTie className="text-red-500 mt-1" />
-
-              <div>
-                <h4 className="text-sm font-semibold text-white">
-                  Sandip Majumder
-                </h4>
-              </div>
-            </div>
-
-            <div className="flex gap-3">
-              <FaPhoneAlt />
-              <a href="tel:+917595807288"className="hover:text-red-400 transition">+91 75958 07288</a>
-            </div>
-
+            
           </div>
 
           {/* Column 2 */}
